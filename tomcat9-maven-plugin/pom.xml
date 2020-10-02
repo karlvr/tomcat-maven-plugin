@@ -35,7 +35,7 @@
         <managerWebAppPath>${basedir}/target/</managerWebAppPath>
         <warTestPath>${basedir}/src/test/simple-war-project-1.0-SNAPSHOT.war</warTestPath>
         <keystoreTestPath>${basedir}/src/test/keystore</keystoreTestPath>
-        <tomcat9Version>9.0.37</tomcat9Version>
+        <tomcat9Version>9.0.38</tomcat9Version>
     </properties>
 
     <dependencies>
