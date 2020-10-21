@@ -1036,6 +1036,8 @@ public abstract class AbstractRunMojo
         {
             // Default to headless
             System.setProperty("java.awt.headless", "true");
+
+		    System.setProperty("org.apache.catalina.startup.EXIT_ON_INIT_FAILURE", "true");
             
             // Set the system properties
             setupSystemProperties();
